@@ -20,12 +20,12 @@ export type {
   Payload,
 } from "https://raw.githubusercontent.com/asantos00/djwt/update-god_crypto-on-v1.7/create.ts";
 
-export { createHttpError } from "https://deno.land/x/oak@v6.3.1/httpError.ts";
+export { createHttpError } from "https://deno.land/x/oak@v10.6.0/httpError.ts";
 
 export type {
   HTTPMethods,
   Middleware,
   RouterContext,
   RouterMiddleware,
-} from "https://deno.land/x/oak@v6.3.1/mod.ts";
-export { Context, Status } from "https://deno.land/x/oak@v6.3.1/mod.ts";
+} from "https://deno.land/x/oak@v10.6.0/mod.ts";
+export { Context, Status } from "https://deno.land/x/oak@v10.6.0/mod.ts";
